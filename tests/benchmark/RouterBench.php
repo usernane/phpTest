@@ -1,6 +1,6 @@
 <?php
 namespace benchmark;
-require_once '../../../';
+
 use webfiori\framework\router\Router;
 
 /**
