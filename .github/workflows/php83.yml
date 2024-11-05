@@ -117,7 +117,7 @@ jobs:
         run: composer install --prefer-dist --no-interaction --no-dev
         
       - name: Benchmarking
-        run: phpbench run tests/webfiori/benchmark --report=default
+        run: phpbench run tests/benchmark --report=default
   release_staging:
     needs:
       - "test"
